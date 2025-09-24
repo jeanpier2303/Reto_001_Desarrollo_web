@@ -1,0 +1,35 @@
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.app-header {
+  width: 100%;
+  background: #171718;
+  color: white;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+
+
+.app-layout {
+  display: flex;
+  flex: 1;
+  min-height: 0; /*no  empuje para abajo */
+}
+
+.app-layout > nav {
+  width: 220px;
+  flex-shrink: 0;
+  background: #f8f9fa;
+  border-right: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background: #f5f6fa;
+}
